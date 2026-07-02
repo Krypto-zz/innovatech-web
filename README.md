@@ -8,13 +8,18 @@ El proyecto cuenta con un panel de administración privado para gestionar produc
 
 ## Capturas
 
-> *(Aquí agregaré capturas cuando la aplicación esté desplegada en Vercel.)*
+> <img width="1221" height="630" alt="Captura de pantalla 2026-07-02 013410" src="https://github.com/user-attachments/assets/a257bd2d-5f24-4759-8650-6cc2bb20f6e8" />
+> <img width="1230" height="619" alt="image" src="https://github.com/user-attachments/assets/52d09f4c-eb3a-4b9c-8f02-0eb4746c4960" />
+> <img width="1184" height="617" alt="image" src="https://github.com/user-attachments/assets/3658361f-e528-4a60-857d-c05362e1860b" />
+
+
+
 
 ---
 
 ## Demo
 
-**Sitio web:** *(Próximamente)*
+**Sitio web:** *https://innovatech-web-wine.vercel.app/*
 
 ---
 
