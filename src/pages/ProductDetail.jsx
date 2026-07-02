@@ -125,7 +125,7 @@ function ProductDetail({ productsData, storeConfig }) {
             {product.category}
           </p>
 
-          <p className="text-zinc-300 text-base sm:text-lg leading-relaxed mb-6 sm:mb-7">
+          <p className="text-zinc-300 text-base sm:text-lg leading-relaxed mb-6 sm:mb-7 whitespace-pre-line">
             {product.description}
           </p>
 
