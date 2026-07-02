@@ -1,16 +1,179 @@
-# React + Vite
+# InnovaTech Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Una tienda online desarrollada con **React**, **Firebase** y **Cloudinary**, enfocada en la venta de accesorios gamer y productos tecnológicos.
 
-Currently, two official plugins are available:
+El proyecto cuenta con un panel de administración privado para gestionar productos, categorías, promociones y configuración general de la tienda en tiempo real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Capturas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> *(Aquí agregaré capturas cuando la aplicación esté desplegada en Vercel.)*
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Demo
+
+**Sitio web:** *(Próximamente)*
+
+---
+
+## Características
+
+### Tienda
+
+- Catálogo dinámico de productos
+- Buscador con sugerencias
+- Categorías dinámicas
+- Promociones
+- Producto destacado
+- Galería de imágenes
+- Detalle individual de producto
+- Integración con WhatsApp
+- Redes sociales configurables
+- Diseño responsive
+
+### Panel de administración
+
+- Login con Firebase Authentication
+- CRUD de productos
+- CRUD de categorías
+- Gestión de promociones
+- Configuración de la tienda
+- Mensajes de WhatsApp configurables
+- Subida de imágenes a Cloudinary
+- Confirmación antes de eliminar registros
+- Notificaciones (Toasts)
+
+---
+
+## Tecnologías utilizadas
+
+### Frontend
+
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- React Icons
+
+### Backend
+
+- Firebase Firestore
+- Firebase Authentication
+- Firebase Security Rules
+
+### Almacenamiento
+
+- Cloudinary
+
+### Herramientas
+
+- Git
+- GitHub
+- Vercel
+
+---
+
+## Base de datos
+
+### Colección **products**
+
+Cada producto almacena:
+
+- Nombre
+- Slug
+- Categoría
+- Descripción
+- Precio
+- Precio de promoción
+- Stock
+- Colores
+- Características
+- Imagen principal
+- Galería de imágenes
+
+### Colección **categories**
+
+- Nombre
+- Icono
+- Color
+
+### Colección **settings**
+
+Configuración completa de la tienda:
+
+- Hero principal
+- Producto destacado
+- Imagen destacada
+- Dirección
+- Horarios
+- WhatsApp
+- Instagram
+- Facebook
+- TikTok
+- Mensajes de WhatsApp personalizados
+
+---
+
+## Seguridad
+
+La aplicación utiliza Firebase Authentication para proteger el panel administrativo.
+
+Las reglas de Firestore permiten:
+
+- Lectura pública de la tienda.
+- Escritura únicamente a administradores autenticados.
+
+---
+
+## Instalación
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/Krypto-zz/innovatech-web.git
+```
+
+Entrar al proyecto:
+
+```bash
+cd innovatech-web
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Crear un archivo `.env` con las variables de entorno correspondientes.
+
+Ejecutar:
+
+```bash
+npm run dev
+```
+
+Para generar la versión de producción:
+
+```bash
+npm run build
+```
+
+---
+
+## Estado del proyecto
+
+Finalizado
+
+Actualmente el proyecto se encuentra funcional e integrado con Firebase y Cloudinary.
+
+---
+
+## Autor
+
+**Miguel Sebastián Mendoza Choquehuanca**
+
+- GitHub: https://github.com/Krypto-zz/
+- LinkedIn: https://www.linkedin.com/in/miguel-mendoza-dev/
