@@ -4,11 +4,12 @@ import { FaWhatsapp } from "react-icons/fa"
 import { goToSection } from "../utils/navigation"
 import { openGeneralWhatsapp } from "../utils/whatsapp"
 
-const promotionsEnabled = productsData.some(
-  (product) => product.promo && product.stock > 0
-)
+
 
 function Navbar({ storeConfig, productsData = [] }) {
+    const promotionsEnabled = productsData.some(
+    (product) => product.promo && product.stock > 0
+    )
     return (
         <header className="flex items-center justify-between border-b border-white/10 pb-5 mb-10">
         <Link to="/" className="flex items-center">

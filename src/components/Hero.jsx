@@ -2,11 +2,12 @@ import { FaFire } from "react-icons/fa"
 
 import { scrollToSection } from "../utils/navigation"
 
-const promotionsEnabled = productsData.some(
-  (product) => product.promo && product.stock > 0
-)
+
 
 function Hero({ storeConfig, productsData = [] }) {
+    const promotionsEnabled = productsData.some(
+    (product) => product.promo && product.stock > 0
+    )
     return (
     <section 
         id="inicio"

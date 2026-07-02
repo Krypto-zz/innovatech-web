@@ -4,11 +4,12 @@ import Social from "./Social"
 import { goToSection } from "../utils/navigation"
 import { SOCIAL_LINKS, openGeneralWhatsapp } from "../utils/whatsapp"
 
-const promotionsEnabled = productsData.some(
-  (product) => product.promo && product.stock > 0
-)
+
 
 function Footer({ storeConfig, productsData = [] }) {
+  const promotionsEnabled = productsData.some(
+    (product) => product.promo && product.stock > 0
+  )
   return (
     <footer className="border-t border-white/10 py-8 grid md:grid-cols-4 gap-8">
       <div>
